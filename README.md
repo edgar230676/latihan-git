@@ -1,0 +1,4 @@
+#latihan mahasiswa
+nama: cantiqa avrilia ilham
+mata kuliah: konsep verifikasi dan validasi perangkat lunak
+tujuan: belajar  version control menggunakan git
