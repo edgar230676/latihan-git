@@ -20,6 +20,7 @@
     <br><br>
 
     <button onclick="tambah()">Penjumlahan (+)</button>
+    <button onclick="kurang()">Pengurangan (-)</button>
 
     <p id="hasil">Hasil: </p>
 
@@ -31,6 +32,14 @@
             document.getElementById("hasil").textContent =
                 "Hasil: " + (a + b);
         }
+
+        function kurang() {
+    const a = Number(document.getElementById("angka1").value);
+    const b = Number(document.getElementById("angka2").value);
+
+    document.getElementById("hasil").textContent =
+        "Hasil: " + (a - b);
+}
     </script>
 </body>
 </html>
